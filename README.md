@@ -1,6 +1,6 @@
 # Leetcode
 Solutions to programming problems listed in Leetcode
-Programming Languages:
+## Programming Languages:
 - C++
 - Java
 - Javascript
