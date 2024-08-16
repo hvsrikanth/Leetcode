@@ -46,7 +46,7 @@ List3 = 7 -> 0 -> 8 -> NULL
 | 2           | 4        | 6        | 4 + 6 + 0 = 10  | 10 / 10 = 1 | 10 % 10 = 0 |
 | 3           | 3        | 4        | 3 + 4 + 1 = 8   | 8 / 10 = 0  | 8 % 10 = 8  |
 
-[C++ Implementation](./addTwoNumbers.cpp)
+[C++ Implementation](./addTwoNumbers.cpp)  
 [Java Implementation](./Solution.java)
 
 *Javascript and Go implementations will be added shortly.*
