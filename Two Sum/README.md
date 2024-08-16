@@ -1,4 +1,5 @@
 # Two Sum - Leetcode Problem
+Difficulty - *Easy*  
 [Leetcode Link: Two Sum](https://leetcode.com/problems/two-sum/description/)
 ## Description  
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -17,10 +18,10 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 Only one valid answer exists.  
 
 ## Solution
-Let's ignore the bruteforce solution which is of time complexity O(n<sup>2</sup>)  
+Let's ignore the bruteforce solution which is of time complexity **O(n<sup>2</sup>)**  
 Input Array has elements {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>i</sub>, ..., x<sub>j</sub>, ..., x<sub>104</sub>}  
 Given a target T, there exist two elements  in the input array x<sub>i</sub>, x<sub>j</sub> such that x<sub>i</sub> + x<sub>j</sub> = T  
-To achieve time complexity of O(n), we use a data structure called HashMap.  
+To achieve time complexity of **O(n)**, we use a data structure called HashMap.  
 > In the HashMap, we store the compliment of current array element (x<sub>j</sub> = T - x<sub>i</sub>) as key and current index i as value.
 > For every x<sub>i</sub>, we lookup the HashMap for the current element.
 >> If it exists, return the two indices (i, j).  
