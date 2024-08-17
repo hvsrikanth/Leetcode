@@ -54,4 +54,9 @@ Output Length = 3
 |   4   |      b     |   2   |      c     | "cab"  | {a : 1, b : 2, c : 1}  | 4 - 2 + 1 = 3, Max: 3   | b count reduced  |
 |   5   |      c     |   3   |      a     | "abc"  | {a : 1, b : 1, c : 2}  | 5 - 3 + 1 = 3, Max: 3   | c count reduced  |
 |   6   |      b     |   5   |      c     | "cb"   | {b : 1, c : 1}         | 6 - 5 + 1 = 2, Max: 3   | a is deleted     |
-|   7   |      b     |   7   |      b     | "b"    | {b : 1}                | 7 - 7 + 1 = 1, Max: 3   | b is deleted     |
+|   7   |      b     |   7   |      b     | "b"    | {b : 1}                | 7 - 7 + 1 = 1, Max: 3   | c is deleted     |
+
+[C++ Implementation](./longestSubstr.cpp)  
+[Java Implementation](./Solution.java)  
+
+*Javascript and Go to be added shortly*
