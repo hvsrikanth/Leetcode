@@ -32,6 +32,12 @@ Explanation: 342 + 465 = 807
 * **Handling Carry:** After processing all nodes in L1 and L2, the loop continues if there's any carry left
 * **Edge Cases:** Solution handles cases where one list is longer than the other by setting node values to 0 for missing nodes. It also accounts for the carry that might need to be appended after traversing both lists
 
+## Time Complexity
+* **O(n):** Solution traverses the singly linked lists L1 and L2 until the end. So the time complexity is max (len(L1), len(L2))
+
+## Space Complexity
+* **O(n):** Solution creates a new linked list (L3) with a node for each digit in the result. In the worst case, the len(L3) is one more than max(len(L1), len(L2))
+
 ## Dry Run
 List1 = 2 -> 4 -> 3 -> NULL  
 List2 = 5 -> 6 -> 4 -> NULL  
