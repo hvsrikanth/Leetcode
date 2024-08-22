@@ -35,7 +35,7 @@ A better solution is using the bitwise operators to get the complement. Idea is 
 * **O(1):** The number of bits in an integer is constant (e.g., 32 bits for a 32-bit integer), so the number of operations performed is fixed and does not grow with the size of the input number. Bitwise NOT (~), AND (&), XOR (^), and left-shifting (<<) are all constant-time operations.
 
 ## Space Complexity
-* **O(1):**: Only additional space taken is that of the mask which is constant regardless of the input.
+* **O(1):** Only additional space taken is that of the mask which is constant regardless of the input.
 
 ## Dry Run
 *Assuming 32 bit representation*  
@@ -53,4 +53,9 @@ Iterate until the relevant bits of input num is covered i.e., while (mask & num 
 ~Mask = ~(11111111 11111111 11111111 11111000) = 00000000 00000000 00000000 00000111  
 *Ignoring the leading 0's*  
 ~Mask = 111   
-Complement = ~Mask ^ num = 111 ^ 101 = 010 = 2
+Complement = ~Mask ^ num = 111 ^ 101 = 010 = 2  
+
+[C++ Implementation](./numberComplement.cpp)  
+[Java Implementation](./Solution.java)  
+
+*Javascript and Go implementations will be added shortly.*
