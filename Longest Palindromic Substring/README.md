@@ -1,7 +1,7 @@
 # 5. Longest Palindromic Substring - Leetcode Problem  
 
 *Difficulty - Medium*  
-[Leetcode Link](https://leetcode.com/problems/longest-palindromic-substring/description/)
+[Leetcode Link - Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
 
 ## Description
 Given a string s, return the longest palindromic substring in s.  
