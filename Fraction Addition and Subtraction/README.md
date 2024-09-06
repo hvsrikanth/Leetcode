@@ -1,5 +1,5 @@
 # 592. Fraction Addition and Subtraction - Leetcode Problem
-*Difficulty - Medium*
+*Difficulty - Medium*  
 [Leetcode Link: Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/description/)  
 
 ## Description
@@ -16,7 +16,7 @@ Output: "1/3"
 ## Constraints
 * The input string only contains '0' to '9', '/', '+' and '-'. So does the output.
 * Each fraction (input and output) has the format ±numerator/denominator. If the first input fraction or the output is positive, then '+' will be omitted.
-* The input only contains valid irreducible fractions, where the numerator and denominator of each fraction will always be in the range [1, 10]. If the denominator is 1, it means this fraction is actually an integer in a fraction format defined above.
+* The input only contains valid **irreducible fractions**, where the **numerator** and **denominator** of each fraction will always be in the range [1, 10]. If the denominator is 1, it means this fraction is actually an integer in a fraction format defined above.
 * The number of given fractions will be in the range [1, 10].
 * The numerator and denominator of the final result are guaranteed to be valid and in the range of 32-bit int.
 
