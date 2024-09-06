@@ -1,5 +1,5 @@
 # 4. Median of Two Sorted Arrays - Leetcode Problem  
-*Difficulty: Hard*  
+*Difficulty - Hard*  
 [Leetcode Link - Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)  
 ## Description  
 Given two sorted arrays A and B of size m and n respectively, return the median of the two sorted arrays.  
