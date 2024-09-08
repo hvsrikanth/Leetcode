@@ -68,6 +68,12 @@ Key points in the implementation:
         * If sign is -ve, return INT_32_MIN
 5. **Non-Numeric Characters:** Processing stops when a non-numeric character is encountered.
 
+## Time Complexity
+* **O(n):** where n is the length of the input string. Solution processes each character in the string in the worst case scenario.
+
+## Space Complexity
+* **O(1):** as solution uses only constant space to process in the form of variables. 
+
 ## Dry Run
 We will dry run an edge case.  
 Input s = "2147483648". Note this is one more than INT32_MAX  
