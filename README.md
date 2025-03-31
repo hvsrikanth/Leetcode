@@ -21,5 +21,6 @@ Solutions to programming problems listed in Leetcode
 |    386 | [Lexicographical Numbers](./Lexicographical%20Numbers/README.md)  |
 |    476 | [Number Complement](./Number%20Complement/README.md)  |
 |    592 | [Fraction Addition and Subtraction](./Fraction%20Addition%20and%20Subtraction/README.md)  |
+|   1071 | [Greatest Common Divisor of Strings](./GCD%20of%20Strings/README.md)  |
 |   1768 | [Merge Strings Alternately](./Merge%20Strings%20Alternately/README.md)  |
 
