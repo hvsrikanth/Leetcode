@@ -37,7 +37,7 @@ class Solution {
         System.out.println(" ]");
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int n = 13;
         Solution sol = new Solution();
         List<Integer> output = sol.lexicalOrder(n);
