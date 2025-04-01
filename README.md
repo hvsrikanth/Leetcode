@@ -22,5 +22,6 @@ Solutions to programming problems listed in Leetcode
 |    476 | [Number Complement](./Number%20Complement/)  |
 |    592 | [Fraction Addition and Subtraction](./Fraction%20Addition%20and%20Subtraction/)  |
 |   1071 | [Greatest Common Divisor of Strings](./GCD%20of%20Strings/)  |
+|   1431 | [Kids with Greatest Number of Candies](./Kids%20With%20the%20Greatest%20Number%20of%20Candies/)  |
 |   1768 | [Merge Strings Alternately](./Merge%20Strings%20Alternately/)  |
 
