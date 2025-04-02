@@ -18,6 +18,7 @@ Solutions to programming problems listed in Leetcode
 |      7 | [Reverse Integer](./Reverse%20Integer/)  |
 |      8 | [String to Integer (atoi)](./String%20to%20Integer/)  |
 |      9 | [Palindrome Number](./Palindrome%20Number/)  |
+|    345 | [Reverse Vowels of a String](./Reverse%20Vowels%20of%20a%20String/)  |
 |    386 | [Lexicographical Numbers](./Lexicographical%20Numbers/)  |
 |    476 | [Number Complement](./Number%20Complement/)  |
 |    592 | [Fraction Addition and Subtraction](./Fraction%20Addition%20and%20Subtraction/)  |
