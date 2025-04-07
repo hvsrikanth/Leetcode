@@ -1,13 +1,8 @@
-#include <vector>
-#include <iostream>
-using namespace std;
-
 class Solution {
-public:
-    bool increasingTriplet(vector<int>& nums) {
-        bool tripletExists = false;
-        int first = INT32_MAX;
-        int second = INT32_MAX;
+    public boolean increasingTriplet(int[] nums) {
+        boolean tripletExists = false;
+        int first = Integer.MAX_VALUE;
+        int second = Integer.MAX_VALUE;
         // Iterate thru' the nums array to find
         // first < second < third
         for (int x : nums) {
@@ -28,11 +23,9 @@ public:
         }
         return tripletExists;
     }
-};
-
-int main(void) {
-    vector<int> nums = {2,1,5,0,4,6};
-    Solution sol;
-    cout << "Increasing triplet subsequence exists: " << sol.increasingTriplet(nums) << endl;
-    return 0;
+    public static void main(String[] args) {
+        int nums[] = {2,1,5,0,4,6};
+        Solution sol = new Solution();
+        System.out.println("Increasing triplet subsequence exists: " + sol.increasingTriplet(nums));
+    }
 }
