@@ -23,6 +23,7 @@ Solutions to programming problems listed in Leetcode
 |    334 | [Increasing Triplet Subsequence](./Increasing%20Triplet%20Subsequence/)  |
 |    345 | [Reverse Vowels of a String](./Reverse%20Vowels%20of%20a%20String/)  |
 |    386 | [Lexicographical Numbers](./Lexicographical%20Numbers/)  |
+|    443 | [String Compression](./String%20Compression/)  |
 |    476 | [Number Complement](./Number%20Complement/)  |
 |    592 | [Fraction Addition and Subtraction](./Fraction%20Addition%20and%20Subtraction/)  |
 |    605 | [Can Place Flowers](./Can%20Place%20Flowers/)  |
