@@ -20,6 +20,7 @@ Solutions to programming problems listed in Leetcode
 |      9 | [Palindrome Number](./Palindrome%20Number/)  |
 |    151 | [Reverse Words in a String](./Reverse%20Words%20in%20a%20String/)  |
 |    238 | [Product of Array Except Self](./Product%20of%20Array%20Except%20Self/)  |
+|    334 | [Increasing Triplet Subsequence](./Increasing%20Triplet%20Subsequence/)  |
 |    345 | [Reverse Vowels of a String](./Reverse%20Vowels%20of%20a%20String/)  |
 |    386 | [Lexicographical Numbers](./Lexicographical%20Numbers/)  |
 |    476 | [Number Complement](./Number%20Complement/)  |
