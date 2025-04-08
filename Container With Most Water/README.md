@@ -14,7 +14,7 @@ Return the *maximum amount of water* a container can store.
 ## Example 1:
 Input: `height = [1,8,6,2,5,4,8,3,7]`  
 Output: `49`  
-Explanation: The above vertical lines are represented by array `[1,8,6,2,5,4,8,3,7]`. In this case, the max area of water (blue section) the container can contain is 49.
+Explanation: The vertical lines in the picture below are represented by array `[1,8,6,2,5,4,8,3,7]`. In this case, the max area of water (blue section) the container can contain is 49.
 
 ![Image](./question_11.jpg)
 
@@ -28,7 +28,7 @@ Output: 1
 `0 <= height[i] <= 10`<sup>`4`</sup>
 
 ## Solution
-Please refer to the picture in Example 1 for visual illustration of the `height` array. As we move the boundaries of the container on the left and right, the blue area occupied by water. We need to find the boundaries on left and right, such that the blue area is maximized. We will use two pointer approach for the solution.
+Please refer to the picture in Example 1 for visual illustration of the `height` array. As we move the boundaries of the container on the left and right, the blue area occupied by water changes. We need to find the boundaries on left and right, such that the blue area is maximized. We will use two pointer approach for the solution.
 * Two pointers `left` and `right`; `left` defines the left boundary and `right` defines the right boundary.
 * `height[left]` and `height[right]` point to the left and right side height of the container at `left` and `right` positions respectively.
 * Iterate over the `height` array until `left` meets `right`.
