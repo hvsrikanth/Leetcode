@@ -1,22 +1,26 @@
-import java.util.HashMap;
+import java.util.Arrays;
 
 class Solution {
     public int maxOperations(int[] nums, int k) {
-        HashMap<Integer, Integer> map = new HashMap<>();
+        // Sort the input array in ascending order
+        Arrays.sort(nums);
         int count = 0;
-        // Loop thru' the nums array to check for k sum elements
-        for (int i = 0; i < nums.length; i++) {
-            // Get the complement of current element
-            int complement = k - nums[i];
-            // Look for the complement of current element in the map
-            if (map.containsKey(complement) && map.get(complement) > 0) {
-                // Found the pair, increment the count
+        // Two pointers to the input array
+        int left = 0;
+        int right = nums.length-1;
+        // Now iterate over the input array to find k sum pairs
+        while (left < right) {
+            // Pair found increment count and move the pointers towards each other
+            if(nums[left] + nums[right] == k) {
                 count++;
-                // Reduce complement count as we are looking for pairs
-                map.put(complement, map.get(complement) - 1);
+                left++;
+                right--;
+            } else if (nums[left] + nums[right] < k) {
+                // Sum is less than k; Move only left
+                left++;
             } else {
-                // Store the current element for possible pairing
-                map.put(nums[i], 1);
+                // Sum is more than k; Move only right
+                right--;
             }
         }
         return count;

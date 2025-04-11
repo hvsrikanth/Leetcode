@@ -1,26 +1,30 @@
 #include <vector>
-#include <unordered_map>
+#include <algorithm>
 #include <iostream>
 using namespace std;
 
 class Solution {
 public:
     int maxOperations(vector<int>& nums, int k) {
-        unordered_map<int, int> map;
+        // Sort the input array in ascending order
+        sort(nums.begin(), nums.end());
         int count = 0;
-        // Loop thru' the nums array to check for k sum elements
-        for (int i = 0; i < nums.size(); i++) {
-            // Get the complement of current element
-            int complement = k - nums[i];
-            // Look for the complement of current element in the map
-            if (map[complement] > 0) {
-                // Found the pair, increment the count
+        // Two pointers to the input array
+        int left = 0;
+        int right = nums.size()-1;
+        // Now iterate over the input array to find k sum pairs
+        while (left < right) {
+            // Pair found increment count and move the pointers towards each other
+            if(nums[left] + nums[right] == k) {
                 count++;
-                // Reduce complement count as we are looking for pairs
-                map[complement]--;
+                left++;
+                right--;
+            } else if (nums[left] + nums[right] < k) {
+                // Sum is less than k; Move only left
+                left++;
             } else {
-                // Store the current element for possible pairing
-                map[nums[i]]++;
+                // Sum is more than k; Move only right
+                right--;
             }
         }
         return count;
