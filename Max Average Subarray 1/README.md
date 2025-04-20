@@ -41,7 +41,7 @@ Clearly, this is a sliding window problem. Here is the solution outline.
 * **O(n):** Time complexity is proportional to the size of the array, n.
 
 ## Space Complexity:
-* **O(n):** Constant space is used in the form of variables to calculate sumK and maxSumK.
+* **O(1):** Constant space is used in the form of variables to calculate sumK and maxSumK.
 
 ## Dry Run
 
