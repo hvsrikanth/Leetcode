@@ -66,7 +66,7 @@ Variables: `left = 0, right = 0, count = 0, maxLength = 0`
 | 10   | 9     | 1           | 2     | 4    | `[0,0,1,1,1,1]`          | 6         |
 | 11   | 10    | 0           | 3 > k | 5    | '[0,1,1,1,1,0]`          | 6         |
 
-Return `maxCount = 6`.
+Return `maxLength = 6`.
 
 ## Source Code
 [C++ Implementation](./longestOnes.cpp)  
