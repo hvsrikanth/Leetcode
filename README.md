@@ -37,4 +37,5 @@ Solutions to programming problems listed in Leetcode
 |   1456 | [Maximum Number Vowels in a Substring of Given Length](./Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length/) |
 |   1493 | [Longest Subarray of 1's After Deleting One Element](./Longest%20Subarray%20After%20Deleting%201%20Element/) |
 |   1679 | [Max Number of K-Sum Pairs](./Max%20Number%20of%20K-Sum%20Pairs/) |
+|   1732 | [Find the Highest Altitude](./Find%20the%20Highest%20Altitude/) |
 |   1768 | [Merge Strings Alternately](./Merge%20Strings%20Alternately/)  |
