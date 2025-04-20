@@ -32,5 +32,6 @@ Solutions to programming problems listed in Leetcode
 |    605 | [Can Place Flowers](./Can%20Place%20Flowers/)  |
 |   1071 | [Greatest Common Divisor of Strings](./GCD%20of%20Strings/)  |
 |   1431 | [Kids with Greatest Number of Candies](./Kids%20With%20the%20Greatest%20Number%20of%20Candies/)  |
+|   1679 | [Max Number of K-Sum Pairs](./Max%20Number%20of%20K-Sum%20Pairs/) |
 |   1768 | [Merge Strings Alternately](./Merge%20Strings%20Alternately/)  |
 
