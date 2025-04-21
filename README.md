@@ -31,6 +31,7 @@ Solutions to programming problems listed in Leetcode
 |    592 | [Fraction Addition and Subtraction](./Fraction%20Addition%20and%20Subtraction/)  |
 |    605 | [Can Place Flowers](./Can%20Place%20Flowers/)  |
 |    643 | [Maximum Average Subarray 1](./Max%20Average%20Subarray%201/) |
+|    724 | [Find Pivot Index](./Find%20Pivot%20Index/) |
 |   1004 | [Max Consecutive Ones 3](./Max%20Consecutive%20Ones%203/) |
 |   1071 | [Greatest Common Divisor of Strings](./GCD%20of%20Strings/)  |
 |   1431 | [Kids with Greatest Number of Candies](./Kids%20With%20the%20Greatest%20Number%20of%20Candies/)  |
